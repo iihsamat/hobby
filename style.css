@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Righteous&display=swap');
+
+.body1 {
+
+background-color: rgb(53, 53, 53);
+
+
+
+
+}
+
+
+.home {
+    text-align:center;
+    font-family: "Righteous", sans-serif;
+    color: rgb(215, 240, 250);
+
+}
+
+.subtituloh{
+    text-align: center
+
+
+}
+
+.centralizado {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.container {
+ display: flex;
+ justify-content: column;
+
+
+
+} 
+
+.hobbies {
+ font-family: "Lexend Deca", sans-serif;
+ text-align: center;
+ margin: 10px;
+
+
+}
