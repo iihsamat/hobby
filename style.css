@@ -1,47 +1,203 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
-.body1 {
-
-background-color: rgb(53, 53, 53);
-
-
-
-
+.navbarC {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 15px;
+   backdrop-filter: blur(8px);
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   color: rgb(155, 181, 255);
 }
 
+.navbarCC {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 15px;
+   backdrop-filter: blur(8px);
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   color: rgb(255, 82, 177);
+}
+
+.navbarA {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 15px;
+   backdrop-filter: blur(8px);
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   color: rgb(255, 87, 213);
+}
+
+a {
+   text-decoration: none; 
+   color: inherit; 
+}
+
+.body1 {
+   background-image: url("./images/background-transformed.png");
+   background-size: 110%;
+}
 
 .home {
-    text-align:center;
-    font-family: "Righteous", sans-serif;
-    color: rgb(215, 240, 250);
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   font-size: 50px;
+   color: rgb(109, 148, 255);
+}
 
+.hobbies {
+   font-family: "Lexend Deca", sans-serif;
+   text-align: center;
+   margin: 100px;
+   color: rgb(0, 62, 133);
+   font-weight:bold;
 }
 
 .subtituloh{
-    text-align: center
-
-
+   font-family: 'M PLUS Rounded 1c';
+   text-align: center;
+   color:rgb(160, 144, 255);
+   margin-top: 50px;
+   font-size: 25px;
 }
 
 .centralizado {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .container {
- display: flex;
- justify-content: column;
-
-
-
+   display: flex;
+   justify-content: column;
 } 
 
-.hobbies {
- font-family: "Lexend Deca", sans-serif;
- text-align: center;
- margin: 10px;
+.descricaoh {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Roboto", "Arial",sans-serif;
+  font-weight: 400;
+  font-weight:bold;
+  color: #ffffff;
+  border: 20px;
+  margin-top: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-width: 10px;
+  border-radius: 25px;
+  padding: 25px;
+  backdrop-filter: blur(5px);
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+/*COMPUTADOR*/
+
+.body2 {
+  background-image: url("./images/meteor-desk-setup-0.jpg");
+  background-size: cover;
+}
+
+.titulo1 {
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   font-size: 50px;
+   color: rgb(60, 63, 255);
+}
+
+.descricaoC { 
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: "Roboto", "Arial",sans-serif;
+   font-weight: 400;
+   font-weight:bold;
+   color: #ffffff;
+   border: 20px;
+   margin-top: 70px;
+   margin-left: 250px;
+   margin-right: 250px;
+   border-width: 10px;
+   border-radius: 25px;
+   padding: 25px;
+   backdrop-filter: blur(5px);
+   background-color: rgb(0, 0, 0, 0.4);
+}
 
 
+/*ACADEMIA*/
+
+
+.body3 {
+ background-image: url("./images/gd_yomrzw.jpg");
+ background-size: cover;
+}
+
+.titulo3 {
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   font-size: 50px;
+   color: rgb(216, 60, 255);
+}
+
+.descricaoA {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: "Roboto", "Arial",sans-serif;
+   font-weight: 400;
+   font-weight:bold;
+   color: #ffffff;
+   border: 20px;
+   margin-top: 70px;
+   margin-left: 250px;
+   margin-right: 250px;
+   border-width: 10px;
+   border-radius: 25px;
+   padding: 25px;
+   backdrop-filter: blur(5px);
+   background-color: rgb(0, 0, 0, 0.4);
+}
+
+/*CRIADOR DE CONTEUDO*/
+
+.body4 {
+ background-image: url(./images/conteudos.png);
+ background-size: cover;
+}
+
+.titulo4 {
+   text-align:center;
+   font-family: "Righteous", sans-serif;
+   font-size: 50px;
+   color: rgb(255, 110, 219);
+}
+
+.descricaoCC {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: "Roboto", "Arial",sans-serif;
+   font-weight: 400;
+   font-weight:bold;
+   color: #ffffff;
+   border: 20px;
+   margin-top: 70px;
+   margin-left: 250px;
+   margin-right: 250px;
+   border-width: 10px;
+   border-radius: 25px;
+   padding: 25px;
+   backdrop-filter: blur(5px);
+   background-color: rgb(0, 0, 0, 0.4);
 }
